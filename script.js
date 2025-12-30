@@ -110,7 +110,7 @@ function sendMessage() {
     setTimeout(() => {
         const botResponse = getBotResponse();
         addMessage(botResponse, false);
-    }, 500);
+    }, 2000);
 }
 
 sendButton.addEventListener('click', sendMessage);
